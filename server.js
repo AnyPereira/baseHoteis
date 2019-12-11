@@ -4,7 +4,8 @@ const express = require('express')
 const port = 3000
 // app.use(express.static('doc'))
 // app.get('/doc',(req,res)=> res.sendFile(path.join(__dirname + '/doc/index.html')))
-app.listen(port, function() {
+app.listen(port || process.env.PORT, function() {
   console.log(`Conectado a porta ${port}`)
 })
+
 
