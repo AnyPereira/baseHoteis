@@ -7,13 +7,16 @@ const hoteisSchema = new mongoose.Schema(
         estado:{type:String},
         pais:{type:String},
         tipoQuarto:{type:String},
+        cafeManha:{type:Boolean},
         valorDiaria:{type:Number},
+        tipoFaturamento:{type:String},
         dataReserva:[{
+            _id: {type:false},
             dataInicial:{type:Date},
             dataFinal:{type:Date}
         }]
     },
-    {versionkey:false})
+        {versionKey:false})
 
 const hoteis = mongoose.model('hoteis', hoteisSchema);
 
