@@ -1,16 +1,16 @@
 {
-  "name": "API de Clientes",
+  "name": "API de Hoteis",
   "version": "0.1.0",
   "description": "projetoFinal",
-  "deion": "Documentação de API de Clientes",
-  "title": "API de Clientes",
+  "deion": "Documentação de API de Hoteis",
+  "title": "API de Hoteis",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2019-12-11T00:14:59.197Z",
+    "time": "2019-12-15T22:07:51.792Z",
     "url": "http://apidocjs.com",
-    "version": "0.18.0"
+    "version": "0.19.0"
   }
 }

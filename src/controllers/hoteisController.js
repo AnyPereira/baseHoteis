@@ -21,7 +21,7 @@ exports.putById = (req,res) => {
       {upsert:false},
     )
     .then(()=>{
-        return res.status(200).send({message: 'Atualizado com sucesso'})
+        return res.status(200).send({message: 'Dado(s) atualizado(s) com sucesso!'})
     })
       .catch((err)=> {
           return res.status(400).send({message:err})
