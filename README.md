@@ -1,12 +1,12 @@
-# Back-end | {reprograma} + Mercado Livre | Dezembro/19 
+## Back-end | {reprograma} + Mercado Livre | Dezembro/19 
 
-## Objetivo
+### Objetivo
 
-### Essa é uma API de base de hotéis, quem consumi-la terá o retorno de hoteis de varios estados brasileiros.
-### Nessa API será possível consultar por cidade e com opção de café da manhã.
-### Excluir, Incluir e atualizar hotéis.
+ Essa é uma API de base de hotéis, quem consumi-la terá o retorno de hoteis de varios estados brasileiros.
+ Nessa API será possível consultar por cidade e com opção de café da manhã.
+ Excluir, Incluir e atualizar hotéis.
 
-## Endpoints
+### Endpoints
 get(/hoteis)
 get(/cafeDaManha)
 get(/:nomeCidade)
@@ -14,8 +14,8 @@ post(/hoteis)
 put(/:_id)
 delete(/:_id)
 
-## Suporte e Linguagens
-### NodeJS
-### MongoDB
-### APIDoc
+### Suporte e Linguagens
+ NodeJS
+ MongoDB
+ APIDoc
 
