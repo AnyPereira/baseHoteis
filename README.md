@@ -14,7 +14,7 @@
 <li>post(/hoteis)</li>
 <li>put(/:_id)</li>
 <li>delete(/:_id)</li>
-<ul>
+</ul>
 
 ### Suporte e Linguagens
 <ul>
