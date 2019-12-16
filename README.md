@@ -7,15 +7,19 @@
  Excluir, Incluir e atualizar hotéis.
 
 ### Endpoints
-get(/hoteis)
-get(/cafeDaManha)
-get(/:nomeCidade)
-post(/hoteis)
-put(/:_id)
-delete(/:_id)
+<ul>
+<li>get(/hoteis)</li>
+<li>get(/cafeDaManha)</li>
+<li>get(/:nomeCidade)</li>
+<li>post(/hoteis)</li>
+<li>put(/:_id)</li>
+<li>delete(/:_id)</li>
+<ul>
 
 ### Suporte e Linguagens
- NodeJS
- MongoDB
- APIDoc
+<ul>
+ <li>NodeJS</li>
+ <li>MongoDB</li>
+ <li>APIDoc</li>
+<ul>
 
